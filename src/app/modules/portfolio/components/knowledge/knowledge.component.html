@@ -1,0 +1,16 @@
+<div class="container">
+  <h2>Knowledges</h2>
+  <ul>
+    @for (item of arrayKnowledges(); track item) {
+    <li>
+      <img
+        [src]="item.src"
+        [alt]="item.alt"
+        loading="lazy"
+        width="90px"
+        height="50px"
+      />
+    </li>
+    }
+  </ul>
+</div>

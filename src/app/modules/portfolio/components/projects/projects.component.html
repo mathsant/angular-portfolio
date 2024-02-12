@@ -1,0 +1,19 @@
+<div class="container">
+  <h2>Projects Done</h2>
+  <ul>
+    @for (item of arrayProjects(); track item) {
+    <li>
+      <button (click)="openDialog(item)">
+        <img
+          [src]="item.src"
+          [alt]="item.alt"
+          loading="lazy"
+          [attr.width]="item.width"
+          [attr.height]="item.height"
+        />
+        <p>{{ item.title }}</p>
+      </button>
+    </li>
+    }
+  </ul>
+</div>
