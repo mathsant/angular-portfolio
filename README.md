@@ -3,7 +3,7 @@
   <br>
     Projeto Prático: Portfólio
   <br>
-  https://troquatte.github.io/curso-angular-portfolio/browser/
+  https://mathsant.github.io/angular-portfolio/browser/
 </h1>
 
 ## :custard: Acesse o GhPages
